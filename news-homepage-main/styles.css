@@ -40,7 +40,7 @@ header {
 }
 
 .home-image {
-    width: 80%;
+    width: 85%;
 }
 
 .home-image > img{
@@ -53,10 +53,23 @@ header {
 
 .below-image > h1 {
     font-size: 2.1rem;
-    width: 80%;
+    width: 60%;
+    font-weight: bolder;
 }
 
 .below-image-flex {
     width: 80%;
     margin-left: 12px;
+}
+
+.below-image-flex > p {
+    width: 75%;
+}
+
+.below-image-flex > button {
+    padding: 12px 26px;
+    background-color: rgba(211, 35, 35, 0.836);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
