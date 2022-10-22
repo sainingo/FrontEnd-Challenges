@@ -19,7 +19,7 @@ ul {
 
  li {
     list-style: none;
-    padding: 0 8px;
+    padding: 0 32px;
 }
 header {
     display: flex;
@@ -31,7 +31,7 @@ header {
 }
 
 .home-container {
-    max-width: 70%;
+    max-width: 97%;
 }
 
 .home-section {
@@ -72,4 +72,10 @@ header {
     color: white;
     border: none;
     cursor: pointer;
+}
+
+.side-bar {
+    background-color: #333;
+    color: #fff;
+    width: 80%;
 }
