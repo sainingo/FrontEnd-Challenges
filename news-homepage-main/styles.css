@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    margin-right: 20px;
+}
+
+ li {
+    list-style: none;
+    padding: 0 8px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
